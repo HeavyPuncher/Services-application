@@ -1,0 +1,159 @@
+td:hover{
+    background-color: #ececec;   
+}
+
+table, td, th{
+    border: 1px solid #0b2545;
+}
+
+table{  
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    font-size: 12.5px;
+    border: 1px solid #0B2545;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+} 
+table{ 
+    cursor: pointer;
+}
+th, tr td:first-child{
+    cursor: default;
+}
+
+table tr td:first-child{
+    padding-right: 5px;
+    height: 40px;
+    padding-top: 15px;    
+    padding-left: 5px;
+    color: #e5e5e5;
+}
+
+table tr:nth-child(2) td:first-child{ background-color: #123054; }
+table tr:nth-child(3) td:first-child{ background-color: #19395f; }
+table tr:nth-child(4) td:first-child{ background-color: #21426a; }
+table tr:nth-child(5) td:first-child{ background-color: #2a4c75; }
+table tr:nth-child(6) td:first-child{ background-color: #325680; }
+table tr:nth-child(7) td:first-child{ background-color: #3d618b; }
+table tr:nth-child(8) td:first-child{ background-color: #496d96; }
+
+th{
+    text-align: center;
+    color: white;
+    background: #0b2545;
+}
+
+td{
+    word-wrap: break-word;
+    vertical-align: top; 
+    height: 50px;
+}
+
+
+.textHeading{
+    padding: 10px 0px 5px;
+    margin-top: 40px;
+    color: #0b2545;
+    font-family: "Cherry Swash", sans-serif;
+}
+
+hr.style-eight {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F1F1F1;
+}
+
+#boxShift{
+    width:auto;
+    height:20px;
+    font-size:15px;
+    background-color: none;   
+    margin-top: 1px;
+}
+#box{
+    width: auto;
+    height: 20px;
+    font-size: 15px;
+    background-color: #ffc871;   
+}
+
+#box:hover{
+    background-color: #6d89c7;
+}
+
+
+
+
+#EmployeeNameBox{
+    width: 100%;
+    height: 50%;
+    color: black;
+    position: relative;
+    background-color: black;
+    margin-top: 10px;
+}
+#EmployeeName div:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+#EmployeeName div{
+    text-align: left;
+    font-size: 13px;
+    border-style: solid;
+    list-style: none;
+    background: white;
+    padding: 5px;
+    display: inline;
+}
+
+
+
+#EmployeeOnShift{
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+
+.stuff{
+    padding: 14px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #696969;
+    margin-top: 10px;
+}
+#Av{
+    background:blue;
+    width: 100%;
+    height:100%;
+}
+#RemoveShift{
+    display: none;
+    background-color: red;
+    margin-top: 10px;
+}
+#AddShift{
+    display:none;
+}
+
+#RemoveShift button:hover{
+    background-color: aqua;
+}
+#RemoveShift button{
+    border: 1px solid #000;
+    background-color: lime;
+    padding: 3px;
+    font-size: 13px;
+}
